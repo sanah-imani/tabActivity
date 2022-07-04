@@ -1,3 +1,5 @@
+//Adapted from color-icon: https://github.com/tiagonbotelho/color-icon/tree/master/src
+
 var colorIconFavicon;
 
 chrome.storage.sync.get({"visible":true}, function(resp) {
